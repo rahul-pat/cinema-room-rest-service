@@ -1,9 +1,7 @@
-package com.github.rahulpat.cinemaroomrestservice;
+package com.github.rahulpat.cinemaroomrestservice.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.JsonProperty;
 import org.springframework.stereotype.Component;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -12,7 +10,6 @@ public class Cinema {
 
     private int totalRows;
     private int totalColumns;
-
     private List<Seat> availableSeats;
     @JsonIgnore
     private List<Seat> totalSeats;
@@ -20,7 +17,6 @@ public class Cinema {
     private List<Purchases> purchases;
     @JsonIgnore
     private int currentIncome;
-
 
     public Cinema() {
         this.totalColumns = 9;
