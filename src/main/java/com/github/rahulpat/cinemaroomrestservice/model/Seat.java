@@ -1,5 +1,4 @@
-package com.github.rahulpat.cinemaroomrestservice;
-
+package com.github.rahulpat.cinemaroomrestservice.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 

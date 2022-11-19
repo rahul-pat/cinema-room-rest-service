@@ -1,4 +1,4 @@
-package com.github.rahulpat.cinemaroomrestservice;
+package com.github.rahulpat.cinemaroomrestservice.model;
 
 import java.util.UUID;
 
